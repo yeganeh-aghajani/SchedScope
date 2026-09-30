@@ -1,0 +1,20 @@
+# Arduino / build
+build/
+*.elf
+
+# Proteus backups and workspace
+*.pdsbak
+*.workspace
+*.bak
+Last Loaded *.pdsbak
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
