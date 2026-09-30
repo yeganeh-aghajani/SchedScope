@@ -20,7 +20,7 @@ SchedScope focuses on making those decisions visible during execution.
 
 The platform provides:
 
-- Real-time visualization of scheduling decisions on an embedded target.
+- Live visualization of scheduling decisions on an embedded target.
 - Comparison of multiple scheduling policies using identical workloads.
 - A low-level ARMv7 implementation for memory-based execution analysis.
 - A Python reference model for generating expected traces and cross-checking results.
@@ -80,9 +80,9 @@ The scheduler operates using a discrete logical clock. At each time step, one sc
 
 Each task is represented as:
 
-\[
+$$
 \tau = \{ID, arrival, duration, deadline, priority\}
-\]
+$$
 
 A deadline miss occurs when a task completes after its absolute deadline. The scheduler records the event and continues execution.
 
